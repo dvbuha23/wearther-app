@@ -1,0 +1,36 @@
+{
+  "name": "weather-app-frontend",
+  "version": "1.0.0",
+  "description": "A weather application that allows users to search for weather conditions in a specific location.",
+  "main": "src/App.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/weather-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/weather-app#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^26.6.3"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
